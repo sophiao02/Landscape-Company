@@ -154,7 +154,7 @@ main div.hero .swiper, main div.hero .swiper img {
   width: 100%;
   height: auto;
 }
-main div.hero .text-overlay {
+main div.hero, .text-overlay {
   position: absolute;
   top: 5% 0;
   bottom: 0%;
