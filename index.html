@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Landscape Company</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/logo.png" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x" alt="Technology Conference Logo">
+		<h1>Landscape Place</h1>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <button id="hamburgerBtn">&#9776;</button>
+        <ul id="primaryNav">
+        <li><a href="#">Home</a>
+        <li class="parent"><a href="#">Reviews</a>
+        <ul>
+            <li><a href="#">Ratings</a></li>
+            <li class="active"><a href="#">Testimonials</a>
+            <li><a href="#">Projects</a></li>
+                
+        </ul>
+        </li>
+        <li class="parent"><a href="#">Best Practices</a>
+        <ul>
+            <li><a href="#">User Experience</a></li>
+            <li><a href="#">Usability Testing</a></li>
+            <li><a href="#">User Personas</a></li>
+            <li><a href="#">Information Architecture</a></li>
+        </ul>
+        </li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+<div class="hero">        
+        <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="images/img1-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/img1-medium.webp" media="(max-width: 800px)">
+                    <img src="images/img1-large.webp" alt="sliderA" width="16" height="5">
+                </picture>
+            </div> <!-- end of one slide -->
+
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="images/img2-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/img2-medium.webp" media="(max-width: 800px)">
+                    <img src="images/img2-large.webp" alt="sliderA" width="16" height="5">
+                </picture>
+            </div> <!-- end of one slide -->
+
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="images/img3-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/img3-medium.webp" media="(max-width: 800px)">
+                    <img src="images/img3-large.webp" alt="sliderA" width="16" height="5">
+                </picture>
+            </div> <!-- end of one slide -->
+
+        </div><!--end swiper wrapper-->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    </div> <!-- end swiper -->
+    <div class="text-overlay">
+        <h3>Find your place</h3>
+    </div>
+</div> <!-- end hero-->
+
+  <h1>Testimonials</h1>
+
+  <div class="customer">
+    <section>
+        <img src="images/img4.webp" width="200" height="200" alt="customer One">
+        <p>"Absolutely thrilled with the transformation our yard underwent thanks to this landscape company! From barren to breathtaking, they exceeded our expectations in every way."</p>
+    </section>
+    <section>
+        <img src="images/img5.webp" width="200" height="200" alt="customer Two">
+        <p>"Professional, efficient, and incredibly talented team! Our outdoor space went from ordinary to extraordinary in no time. Highly recommend their services to anyone looking to elevate their landscape."</p>
+    </section>
+  </div>
+
+  <h1>Recent Projects</h1>
+
+  <div class="overlay">
+    <section>
+        <h2>Hawaii Garden</h2>
+        <img src="images/img6.webp" width="400" height="250" alt="yard">
+        <img src="images/cloud.png" width="400" height="250" alt="mask">
+    </section>
+
+    <section>
+        <h2>Oregon Woods</h2>
+        <img src="images/img7.webp" width="400" height="250" alt="yard">
+        <img src="images/flower.png" width="400" height="250" alt="mask">
+    </section>
+
+    <section>
+        <h2>Costal Greenery</h2>
+        <img src="images/img8.webp" width="400" height="250" alt="yard">
+        <img src="images/waves.png" width="400" height="250" alt="mask">
+    </section>
+
+    <section>
+        <h2>Utah Flowers</h2>
+        <img src="images/img9.webp" width="400" height="250" alt="yard">
+        <img src="images/grass2.png" width="400" height="250" alt="mask">
+    </section>
+
+  </div>
+
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p>Copyright &copy; <span id="year">x</span> &bull; Sophia Otis</p>
+    </footer>
+</div> <!-- end footer wrapper -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="js/scripts.js"></script>
+</body>
+</html> 
