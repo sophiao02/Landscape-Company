@@ -156,7 +156,7 @@ main div.hero .swiper, main div.hero .swiper img {
 }
 main div.hero .text-overlay {
   position: absolute;
-  top: 5% 0;
+  top: 10%;
   bottom: 0%;
   left: 0;
   right: 0;
@@ -168,7 +168,7 @@ main div.hero .text-overlay {
 main div.hero .text-overlay h3 {
   text-shadow: 0 0 2px #000;
   background: rgb(0, 0, 0);
-  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 50%);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.05) 50%);
   padding: 10px;
   font-weight: 500;
 }
@@ -390,7 +390,9 @@ footer a {
   }
 }
 @media only screen and (min-width: 64rem) {
-  header, nav, main {
+  header,
+  nav,
+  main {
     max-width: 60rem;
     margin: 0 auto;
   }

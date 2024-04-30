@@ -1,25 +1,35 @@
-header, nav, main {
-    max-width: 60rem;
-    margin: 0 auto;
+header,
+nav,
+main {
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 /* NAVIGATION STUFF GOES HERE  */
 nav ul li a {
-    font-size: .9rem;
-    padding: .5rem 1.2rem;
+  font-size: 0.9rem;
+  padding: 0.5rem 1.2rem;
 }
 
 div.customer {
-    section {
-        grid-template-columns: 200px auto;
-        column-gap: 8px;
-        img {
-            clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
-        }
-    }//end section/child
-  }//end customer
+  section {
+    grid-template-columns: 200px auto;
+    column-gap: 8px;
+    img {
+      clip-path: polygon(
+        0% 20%,
+        60% 20%,
+        60% 0%,
+        100% 50%,
+        60% 100%,
+        60% 80%,
+        0% 80%
+      );
+    }
+  } //end section/child
+} //end customer
 
-  div.overlay {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+div.overlay {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
